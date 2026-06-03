@@ -19,15 +19,25 @@
             <div class="card h-100">
               <div class="card-body">
                <form action="/contact" method="post">
+
+@if (session('success'))
+<div class="alert alert-success">
+{{ session('success') }}
+    </div>
+@endif
+
                 @csrf
     <label class="form-label">Enter Name:</label>
     <input type="text" id="username" name="name" class="form-control pt-3 mb-3">
 
     <label class="form-label">Email:</label>
     <input type="email" name="email" id="email" class="form-control pt-3 mb-3">
-
+    
     <label class="form-label">Message</label>
     <textarea name="message" id="message" cols="30" rows="5" class="form-control mb-3"></textarea>
+     @error('message')
+        <div class="text-danger">{{ $message }}</div>
+    @enderror
 
     <button type= "submit" class="btn btn-primary">Send</button>
 

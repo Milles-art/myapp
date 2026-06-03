@@ -10,8 +10,9 @@
 
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Millen's App</a>
+            <a class="navbar-brand" href="#">Millen's Portfolio</a>
             <a href="{{ route('home') }}" class="text-white me-3">Home</a>
+            <a href="{{ route('project') }}" class="text-white me-1">Projects</a>
             <a href="{{ route ('contact') }}" class="text-white me-3">Contact</a>
             <a href="{{ route ('about') }}" class="text-white me-3">About</a>
         </div>
