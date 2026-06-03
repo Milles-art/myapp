@@ -12,7 +12,7 @@
                 <h1 class="display-4 fw-bold">Millen Michael Emmanuel</h1>
                 <h4 class="text-muted mb-3">Full Stack Web Developer</h4>
                 <p class="lead mb-4">I build clean, functional web applications that solve real problems. Based in Dar es Salaam, Tanzania — open to freelance projects and full-time opportunities.</p>
-                <a href="/projects" class="btn btn-primary btn-lg me-2">View My Work</a>
+                <a href="/project" class="btn btn-primary btn-lg me-2">View My Work</a>
                 <a href="/contact" class="btn btn-outline-secondary btn-lg">Hire Me</a>
             </div>
         </div>
