@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\AdminController;
 
 Route::get('/', function()
 {
@@ -23,3 +24,4 @@ Route::get('/about', function()
 Route::post('/contact', [ContactController::class, 'store']);
 
 Route::get('/project', [ProjectController::class, 'index'])->name('project');
+
